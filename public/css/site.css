@@ -33,7 +33,7 @@ footer {
 #container header {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: start;
   min-height: 100vh;
 }
 #container header a {
@@ -54,7 +54,7 @@ footer {
   margin: 0;
   display: flex;
   justify-items: baseline;
-  justify-content: flex-end;
+  justify-content: end;
   flex-direction: column;
   list-style-type: none;
   padding: 0;
@@ -100,7 +100,7 @@ section#main {
 }
 section#main #pager {
   display: flex;
-  justify-content: flex-end;
+  justify-content: end;
   height: 55px;
 }
 section#main #pager #prev-page,
